@@ -27,3 +27,8 @@ a {
 .animated {
   transition: height 300ms ease-in-out, opacity 300ms ease-in-out;
 }
+
+input {
+  min-height: 1rem !important;
+  padding: 0.7rem .7rem !important;
+}

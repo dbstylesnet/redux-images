@@ -48,10 +48,10 @@ const App = () => {
 						{productList ? productList.products.map(product => {
 							return <div key={product.id}>
 								<div>
-									{/* eslint-disable-next-line */}
-									<a onClick={() => dispatch(actions.productActions.setVisible(product.id))}>
+									{/* // eslint-disable-next-line */}
+									<button onClick={() => dispatch(actions.productActions.setVisible(product.id))}>
 										{product.name}
-									</a>
+									</button>
 								</div>
 								<div className={`${product.visible ? 'show' : 'hide'} animated`}>
 									<Input 
