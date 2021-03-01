@@ -48,7 +48,6 @@ const App = () => {
             {productList ? productList.products.map(product => {
               return <div key={product.id}>
                 <div>
-                  {/* // eslint-disable-next-line */}
                   <button onClick={() => dispatch(actions.productActions.setVisible(product.id))}>
                     {product.name}
                   </button>
