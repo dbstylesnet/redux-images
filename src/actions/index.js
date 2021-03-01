@@ -1,6 +1,6 @@
 import productActions from './productActions'
 
 const actions = {
-	productActions,
+  productActions,
 }
 export default actions
