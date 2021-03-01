@@ -1,0 +1,29 @@
+body {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 0.9rem;
+  line-height: 1.6em;
+}
+
+a {
+  text-decoration: underline;
+  cursor: pointer; 
+}
+
+.bold {
+  font-weight: 600;
+}
+
+.hide {
+  opacity: 0;
+  height: 0;
+  overflow: hidden;  
+}
+
+.show {
+  opacity: 1;
+  height: auto;
+}
+
+.animated {
+  transition: height 300ms ease-in-out, opacity 300ms ease-in-out;
+}
