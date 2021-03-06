@@ -1,5 +1,5 @@
 # Redux Products List
-Simple app displaying list of products feeded to redux state.
+Simple app displaying list of products fed to redux state.
 
 ![Screenshot showing project](https://github.com/dbstylesnet/redux-products/blob/main/screenshot.png)
 
